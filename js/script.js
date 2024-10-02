@@ -29,10 +29,10 @@ const displayUserInfo = function (data) {
     </div>
   `;
   overview.append(div);
-  gitRepos();
+  gitRepos(username);
 };
 
-const gitRepos = async function () {
+const gitRepos = async function (username) {
     const fetchRepos = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=100`);
     const repoData = await fetchRepos.json();
     displayRepos(repoData);
@@ -67,7 +67,7 @@ const getRepoInfo = async function (repoName) {
         languages.push(language);
     }
 
-    displayRepoInfo(repoInfo, lanugages);
+    displayRepoInfo(repoInfo, languages);
 };
 
 const displayRepoInfo = function (repoInfo, languages) {
