@@ -7,6 +7,12 @@ A dynamic web application that fetches and displays GitHub repositories in an in
 ![HTML](https://img.shields.io/badge/HTML-17.7%25-orange)
 ![GitHub API](https://img.shields.io/badge/API-GitHub-181717?logo=github)
 
+## 📸 Preview
+
+![GitHub Repo Gallery](https://github.com/user-attachments/assets/09731278-7f53-4f73-b006-41c4b77bead5)
+
+*Browse and explore GitHub repositories with an interactive gallery interface*
+
 ---
 
 ## 📋 Table of Contents
